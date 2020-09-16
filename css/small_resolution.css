@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    font-family: arial;
+    display: flex;
+    flex-flow: column;
+	align-items: baseline;
+    flex: 1 1 100px;
+    
+}
+
+.resumeArea {
+    width: 100%;
+    margin-left: 5px;
+	margin-right: 25px;
+}
+.smallHeading {
+  display: block;
+  width: 102%;  
+  background-color: #feca07;
+  text-align: center;
+}
+
+.smallHeading img{
+    display: block;
+    border-style: solid;
+    border-color: #daaf12;
+    border-radius: 180px;
+    margin: 50px auto;
+    height: 200px;
+    width: 200px;
+}
+
+.content span{
+    font-weight:bold;
+}
+.content p {
+    color: #45423d;
+    margin: 25px auto;
+    letter-spacing: 2px;
+    font-size: 2vw;
+}
+h1 {
+    margin-bottom: -14px;
+    font-family: calibri;
+}
+
+h1 span {
+    color: #feca07;
+}
+
+h2 {
+    margin-bottom: -10px;
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    margin-left: 16px;
+	margin-right: 16px;
+    border-width: 0;
+    color: #feca07;
+    background-color: #feca07;
+
+}
+
+h3 {
+    margin-top: 32px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.jobLocation {
+    margin-top: 16px;
+    font-weight: bold;
+
+}
+
+.jobTitle {
+    font-style: italic;
+}
+
+p {
+    margin-top: -16px;
+}
+
+
+.sideBar {
+	display: none;
+}
