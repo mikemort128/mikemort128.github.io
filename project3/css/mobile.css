@@ -3,8 +3,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin: 0%;
+    padding: 0px;
+    overflow-x: hidden;
     font-family: Roboto, Helvetica, serif;
 }
 
