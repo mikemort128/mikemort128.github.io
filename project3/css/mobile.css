@@ -1,0 +1,240 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: Roboto, Helvetica, serif;
+}
+
+.makeBold{
+    font-weight: bold;
+}
+
+.makeSpacing{
+    margin-top: -.7em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    /*width: 414px;*/
+    justify-content: center;
+}
+
+
+/* Location Area*/
+#location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #eaeaea;
+}
+
+#location p {
+    font-weight: bold;
+}
+
+#location img {
+    width: .75em;
+    height: 1em;
+    margin-right: 1em;
+}
+
+
+
+/* Explore Area*/
+#explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+#explore h1 {
+    margin-top: 2em;
+}
+
+#explore p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#explore div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(173deg, #df6fda 50%, #a25bdb 100%);
+    border-radius: 90px;
+    width: 257px;
+    height: 64px;
+    margin-bottom: 53px;
+}
+
+#explore div p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+/* How it works Area*/
+#how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#how-it-works h1 {
+    margin-right: 8.5em;
+    margin-top: 2em;
+}
+
+#how-it-works div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*background-color: f6f6f6;*/
+    width: 100%;
+    padding-left: 2em;
+}
+
+#how-it-works .numC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9356dc;
+    color: white;
+    text-align: center;
+    border-radius: 180px;
+    margin-right: -3em;
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+}
+
+#how-it-works article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Roboto, Helvetica, serif;
+    font-weight: bold;
+    background-color: #f6f6f6;
+    text-align: center;
+    border-radius: 90px;
+    width: 357px;
+    height: 75px;
+    margin: 1em 2em 1em;
+    /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];*/
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+#how-it-works article img{
+    margin-left: 2.5em;
+    height: 1em;
+    width: 1em;
+}
+
+#how-it-works article p{
+    margin-left: 1.5em;
+}
+
+#how-it-works #purpHowCont {
+    margin-bottom: 3em;
+}
+#how-it-works #purpHowArti {
+    background-color: #f5edff;
+}
+
+
+/*WORK ON STUFF UNDER THIS*/
+#restaurants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto, Helvetica, serif;
+    justify-content: center;
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+#restaurants h1 {
+    margin-right: 12.8em;
+    margin-bottom: -;
+    margin-top: 2em;
+}
+
+#restaurants article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*Cropping image with to better fit design, without external cropping
+
+#cropped1{
+    position: relative;
+}
+
+#cropped1 img{
+    display:absolute; 
+    clip: rect(0px,10px,10px,0px);
+}
+*/
+
+#restaurants img {
+    width: 90%;
+    height: 75%;
+    border-radius:30px 30px 0px 0px;
+    margin-top: 1.3em;
+}
+
+#restaurants div {
+    background-color: white;
+    border-radius:0px 0px 30px 30px;
+    width: 90%;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+#restaurants div p {
+    margin-left: 1em;
+}
+
+/*-----------------------------------------*/
+
+footer {
+    background-color: #353535;
+    width: 100%;
+ }
+
+footer p {
+    font-family: Shrikhand;
+}
+
+/*
+@media screen and (max-width: 1024px) {
+    Landscape style changes
+}
+iphone width
+@media screen and (max-width: 414px) {
+    Portrait to mobile style changes 
+}*/
