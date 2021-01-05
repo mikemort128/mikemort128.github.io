@@ -3,8 +3,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin: 0%;
+    padding: 0px;
+    overflow-x: hidden;
     font-family: Roboto, Helvetica, serif;
 }
 
@@ -177,8 +178,13 @@ header {
 
 #restaurants h1 {
     background-color: red;
-    margin-right: 11.5em;
+    /*margin-right: 8.5em;*/
+    margin: 0 auto;
     margin-top: 2em;
+}
+
+#restaurants h1:hover {
+    background-color: blue;
 }
 
 #restaurants article {
@@ -188,6 +194,8 @@ header {
     justify-content: center;
     width: 100%;
 }
+
+
 
 /*Cropping image with to better fit design, without external cropping
 
