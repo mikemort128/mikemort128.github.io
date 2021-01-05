@@ -178,8 +178,11 @@ header {
 
 #restaurants h1 {
     background-color: red;
+<<<<<<< HEAD
     /*margin-right: 8.5em;*/
     margin: 0 auto;
+=======
+>>>>>>> 6e63352ef6a7ce9f58a0100088f83aa717f1ac59
     margin-top: 2em;
 }
 
